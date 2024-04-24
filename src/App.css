@@ -60,10 +60,6 @@ h2{font-size:24px ;}
   margin-bottom: 16px;
 }
 
-.about{
-  margin: 16px;
-}
-
 .about_card{
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -78,4 +74,48 @@ h2{font-size:24px ;}
 }
 .about_card_item img{
   width: 30px;
+}
+
+.about_desgin{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #f1f1f1;
+  padding: 5rem;
+}
+
+.about_desgin img{
+  width: 100%;
+}
+.team_inner{
+  padding: 1rem;
+}
+.team_inner img{
+  width: 100%;
+}
+
+.team-innerSection{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  background-color: #616161;
+  padding: 4rem;
+}
+.team-innerSection h2{
+  font-size: 36px;
+  text-align: center;
+  color: #f1f1f1;
+}
+
+.team-innerSection p{
+  color: #f1f1f1;
+}
+
+.work_gallery{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.work_gallery_inner{
+  padding: 1rem;
+}
+.work_gallery_inner img{
+width: 100%;
 }

@@ -27,7 +27,7 @@ function About() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                 </div>
             </div>
-            <div>
+            <div className='about_desgin'>
                 <div>
                     <h2>We know design.</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
