@@ -1,20 +1,22 @@
-body{
+body {
   margin: 0;
   padding: 0;
   margin-top: 64px;
 }
 
-button{
+button {
   padding: 0.5rem 1rem;
 }
 
-p{
+p {
   font-size: 18px;
 }
 
-h2{font-size:24px ;}
+h2 {
+  font-size: 24px;
+}
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -24,98 +26,160 @@ h2{font-size:24px ;}
   background-color: #fff;
 }
 
-.header ul{
+.header ul {
   display: flex;
 }
 
-.header ul li{
+.header ul li {
   list-style: none;
   padding: 1rem;
 }
 
-.poster{
+.poster {
   position: relative;
 }
 
-.poster img{
+.poster img {
   width: 100%;
 }
 
-.test{
+.test {
   position: absolute;
   top: 50%;
   left: 20%;
 }
-.test h1{
+
+.test h1 {
   color: #fff;
   font-size: 36px;
 }
-.test p{
+
+.test p {
   color: #fff;
   font-size: 18px;
 }
 
-.about h2 , p{
+.about h2,
+p {
   text-align: center;
   margin-bottom: 16px;
 }
 
-.about_card{
+.about_card {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
 }
 
-.about_card_item{
+.about_card_item {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 100%;
 }
-.about_card_item img{
+
+.about_card_item img {
   width: 30px;
 }
 
-.about_desgin{
+.about_desgin {
   display: grid;
   grid-template-columns: 50% 50%;
   background-color: #f1f1f1;
   padding: 5rem;
 }
 
-.about_desgin img{
-  width: 100%;
-}
-.team_inner{
-  padding: 1rem;
-}
-.team_inner img{
+.about_desgin img {
   width: 100%;
 }
 
-.team-innerSection{
+.team_inner {
+  padding: 1rem;
+}
+
+.team_inner img {
+  width: 100%;
+}
+
+.team-innerSection {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   background-color: #616161;
   padding: 4rem;
 }
-.team-innerSection h2{
+
+.team-innerSection h2 {
   font-size: 36px;
   text-align: center;
   color: #f1f1f1;
 }
 
-.team-innerSection p{
+.team-innerSection p {
   color: #f1f1f1;
 }
 
-.work_gallery{
+.work_gallery {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
 }
-.work_gallery_inner{
+
+.work_gallery_inner {
   padding: 1rem;
 }
-.work_gallery_inner img{
+
+.work_gallery_inner img {
+  width: 100%;
+}
+
+.work_skill {
+  padding: 1rem;
+}
+
+.work_skill p {
+  font-size: 16px;
+  text-align: left;
+}
+
+.work_skill progress {
+  padding: 1.5rem;
+  width: 100%;
+}
+.skillDetail{
+  padding: 1rem;
+}
+.skillDetail p {
+  font-size: 16px;
+  text-align: left;
+}
+.pricie_outer{
+  background-color: #616161;
+}
+.price_list{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.price_list ul li{
+list-style: none;
 width: 100%;
+text-align: center;
+border-bottom: 1px solid #ddd;
+padding: 12px 0px 12px 0px;
+}
+.price_list ul li:first-child{
+  background-color: #000;
+  color: #fff;
+}
+.price_list ul li:last-child{
+  background-color: #ddd;
+  color: #fff;
+}
+.price_list ul:nth-child(even) li:first-child{
+  background-color: red;
+  color: #fff;
+}
+.price_list ul li button{
+  background-color: #000;
+  color: #fff;
+  border: #000;
+  padding: 12px 24px;
 }

@@ -36,14 +36,28 @@ function OurWork() {
 
                 </div>
             <div className='about_desgin'>
-                <div>
+                <div className='skillDetail'>
                     <h2>Our Skills..</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
                     <p>tempor incididunt ut labore et dolore.</p>
                 </div>
-                <div>
+                <div className='work_skill'>
+                    <div>
+                        <p>Photography</p>   
                     <progress id="file" value="32" max="100"> 32% </progress>
-                    <progress id="file" value="32" max="100"> 32% </progress>
+                    </div>
+                    <div>
+                    <p>Web Design</p> 
+                    <progress id="file" value="62" max="100"> 62% </progress>
+                    </div>
+                    <div>
+                    <p>Photoshop</p>
+                    <progress id="file" value="82" max="100"> 92% </progress>
+                    </div>
+                    <div>
+                    <p>Photoshop</p>
+                    <progress id="file" value="96" max="100"> 98% </progress>
+                    </div>
                 </div>
             </div>
         </div>
