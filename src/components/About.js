@@ -5,7 +5,7 @@ function About() {
         <div className='about'>
             <h2>ABOUT THE COMPANY</h2>
             <p>Key features of our company </p>
-            <div className='about_card'>
+            <div className='about_card inner_container'>
                 <div className='about_card_item'>
                     <img src='images/icons8-responsive-50.png' alt='responsive' />
                     <p>Responsive</p>
