@@ -1,4 +1,6 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './components/Home';
 import Header from './components/Header';
 import Poster from './components/Poster';
 import About from './components/About';
@@ -9,13 +11,22 @@ import Contact from './components/Contact';
 function App() {
   return (
     <>
-      <Header />
-      <Poster />
-      <About />
-      <Team/>
-      <OurWork/>
-      <Price/>
-      <Contact/>
+
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route>
+            <Route path="/" element={<Home />} />
+            <Route path="/poster" element={<Poster />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/ourwork" element={<OurWork />} />
+            <Route path="/team" element={<Team />} />
+            <Route path="/price" element={<Price />} />
+            <Route path="/contact" element={<Contact />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+
     </>
   );
 }
