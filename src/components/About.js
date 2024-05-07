@@ -34,7 +34,7 @@ function About() {
                     <p>tempor incididunt ut labore et dolore.</p>
                 </div>
                 <div>
-                    <img src='images/phone_buildings.jpg' alt='phone' />
+                    <img src='images/hero.jpg' alt='phone' />
                 </div>
             </div>
         </div>

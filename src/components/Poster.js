@@ -3,7 +3,7 @@ import React from "react";
 function Poster() {
     return (
         <div className="poster">
-            <img src="images/laptop.jpg" alt="poster" />
+            <img src="images/bg1.jpg" alt="poster" />
             <div className='inner_container'>
                 <div className="test">
                     <h1>Start something that matters</h1>
