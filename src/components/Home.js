@@ -6,6 +6,7 @@ import Team from './Team';
 import OurWork from './OurWork';
 import Price from './Price';
 import Contact from './Contact';
+import UserUseEffect from './UserUseEffect';
 function Home() {
     return (
         <div>
@@ -16,6 +17,7 @@ function Home() {
             <OurWork />
             <Price />
             <Contact />
+            <UserUseEffect />
         </div>
     )
 }

@@ -11,7 +11,6 @@ import Contact from './components/Contact';
 function App() {
   return (
     <>
-
       <BrowserRouter>
         <Header />
         <Routes>
@@ -26,7 +25,6 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-
     </>
   );
 }
